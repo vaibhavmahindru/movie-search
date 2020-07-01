@@ -8,12 +8,15 @@ body {
   margin: 0;
   font-family: "Squada One", cursive;
   background-color: rgb(244, 244, 244);
-  color: #333;
+  color: black;
 }
 .container {
   margin: 0 auto;
   max-width: 1000px;
   padding: 40px;
+  border: 5px solid black;
+  overflow-y: auto;
+  height: 100vh;
 }
 header {
   text-align: center;
@@ -21,6 +24,7 @@ header {
   font-size: 4.4rem;
   color: rgb(250, 245, 240);
   padding: 1.5rem;
+  border: 2px solid black;
 }
 .form {
   text-align: center;
@@ -53,4 +57,34 @@ header {
   .input {
     margin-right: 0;
   }
+}
+
+.cards-list {
+  margin-top: 4rem;
+  width: 95%;
+}
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(105, 104, 104);
+  margin-bottom: 2.5rem;
+  background-color: rgb(247, 243, 243);
+}
+
+.card--image {
+  border: 1.5px solid black;
+}
+
+.card--title {
+  font-size: 3rem;
+}
+
+.release-date,
+.rating {
+  font-size: 1.5rem;
+  color: rgb(122, 120, 120);
+}
+.card--desc {
+  font-size: 2rem;
 }
