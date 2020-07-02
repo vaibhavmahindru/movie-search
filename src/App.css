@@ -53,15 +53,20 @@ header {
   cursor: pointer;
 }
 
-@media (min-width: 786px) {
+@media (max-width: 486px) {
   .input {
     margin-right: 0;
+    font-size: 1rem;
+  }
+  .button {
+    font-size: 1.5rem;
   }
 }
 
 .cards-list {
   margin-top: 4rem;
   width: 95%;
+  display: grid;
 }
 
 .card {
