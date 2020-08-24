@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 class movies extends Component {
   styles = {
     height: "250px",

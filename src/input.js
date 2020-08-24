@@ -35,7 +35,9 @@ class input extends Component {
             name="query"
             type="text"
             value={this.state.query}
-            onChange={(e) => this.setState({ query: e.target.value })}
+            onChange={(e) => {
+              this.setState({ query: e.target.value });
+            }}
           />
           <button type="submit" className="button">
             <span role="img" aria-label="search">
